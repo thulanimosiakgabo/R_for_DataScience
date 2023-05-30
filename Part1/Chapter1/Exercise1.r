@@ -20,3 +20,5 @@ ggplot(data = mpg) +
 
 # 5. What happens if you make a scatterplot of class vs drv? Why is the plot not useful?
 ggplot(data = mpg) + geom_point(mapping = aes(x = class, y = drv))
+
+#it doesnt offer a value. it doesn't tell us how many cars in each class have a certain type of drive.
